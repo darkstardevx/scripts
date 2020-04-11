@@ -1,8 +1,8 @@
 #!/bin/bash
 #############################################
 # Author: darkstardevx@gmail.com
-# https://github.com/angryrobot/linux-tools
-# Version: 1.0.1
+# https://github.com/darkstardevx/scripts/
+# Version: 1.0.8
 #############################################
 # A menu driven shell script sample template
 ## ----------------------------------
