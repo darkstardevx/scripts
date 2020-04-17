@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# https://github.com/darkstardevx/scripts
+# Darkstardevx [darkstardevx@gmail.com]
+
+
+#package select (avconv or ffmpeg)
+RECORDER=ffmpeg
+
+#Audio Device
+AUDIO=pulseaudio
+
+#SoundCard (pulse for pulseaudio, hw:0,1 for directly communicating with your soundcard - use aplay -l to see whats your value)
+SOUNDCARD=pulse
+
+$RECORDER -video_size 1680x1050 -framerate 25 -f x11grab -i :0.0 /home/raven/screencasts/output.mkv
