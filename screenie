@@ -1,0 +1,10 @@
+#!/bin/bash
+# Screenie (simple scrot script)
+# Version 1.0
+# https://github.com/darkstardevx/scripts
+
+# Take screenshot and move to screenshot directory.
+# 5 second delay before screenshot.
+echo Preparing Screenshot ...
+
+scrot '%Y-%m-%d_$wx$h_scrot.png' -d 5 -c -e 'mv $f ~/Pictures/screenshots/'
